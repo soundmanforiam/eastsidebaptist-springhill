@@ -1,0 +1,127 @@
+/*
+
+Theme Name: East Side Baptist - Springhill
+
+Theme URI: http://www.eastsidebaptist-springhill.org
+
+Author: Charlie Holmes
+
+Author URI: http://www.charlieholmes.net    
+
+Description: Church Website
+Version: 1.0
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: 
+
+Text Domain: 
+
+*/
+
+
+body{
+    background-color: #fff;
+    
+}
+.church-bg{
+    background-image: url(img/church-header-faded.png);
+    min-height: 300px;
+    width: 100vw;
+    text-align: center;
+    color: white; 
+    text-shadow:  2px 1px #000000;
+    position: relative;
+    top: 40px;
+    padding-top: 30px;
+}
+
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    z-index: 1000;
+    /* background-image: url(http://www.eastsidebaptist.org/wp-content/themes/EastSideBaptist-Springhill_WordPress_Theme/img/compass.png); 
+    background-size: 100 100; */
+}
+.header{
+    text-align: right;
+    /* margin-right: 20px; */
+    width: 100vw !important;
+    background-image: linear-gradient(to right, white , #313131);
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+}
+#main-nav{
+    /* text-align: center; */
+    font-size: 1.25rem;
+    width: 100vw !important;
+}
+#menu-navbar li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+.content-area{
+    background-color: #fff;
+    height: 90vh;
+    width: 80vw !important;
+    position: relative;
+    top: 80px;
+    /* padding-top: 30px !important;
+    margin-top: 40px !important; */
+}
+.footer{
+    background-color: #313131 !important;
+    color: #fff;
+    text-align: center !important;
+    position: fixed; 
+    bottom: 0;
+    width:100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer a{
+    color: #fff !important;
+}
+.iframe-map{
+    border:0;
+    width: 45vw;
+    height: 300px;
+    border:0; 
+}
+.front-page{
+    position: relative; 
+    bottom: 0; 
+    margin:auto; 
+    height: 50vh;
+    background-color: #dfdfdf;
+}
+
+@media (max-width: 766px){
+    iframe{
+        width: 100vw !important;
+        height: 300px;
+    }
+    ul {
+        text-align: center;
+    }
+    .content-area{
+        padding-top:50px !important;
+        padding-left: 30px !important;
+        width: 100vw !important;
+        height: 100vh !important;
+    }
+}
+
+@media (max-width: 900px){
+    .content-area{
+        /* padding-top:60px !important; */
+        width: 80vw;
+    }
+}
